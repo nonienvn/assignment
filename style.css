@@ -1,0 +1,55 @@
+body {
+    margin: auto;
+    
+}
+
+.back {
+    background-image: url('back.jpg');
+}
+
+.box {
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.pic {
+    height: 200px;
+}
+
+.web {
+    height: 50px;
+}
+
+.check {
+    height: 20px;
+}
+
+.get {
+    transform: translateY(30px);
+}
+
+.boxx {
+    height: 100px;
+    
+}
+
+.cont{
+    background-color: lightgrey;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .cont {
+      display: block;
+      width: 100%;
+      margin-left: 0pt;
+      margin-right: 0pt;
+    }
+
+    
+  }
